@@ -1,0 +1,26 @@
+{
+  "name": "cypress-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "serve": "http-server ./server",
+    "test": "run-p -r serve cypress "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishants/hey-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishants/hey-cypress/issues"
+  },
+  "homepage": "https://github.com/nishants/hey-cypress#readme",
+  "dependencies": {
+    "cypress": "3.4.1",
+    "http-server": "^0.12.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
