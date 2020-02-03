@@ -1,12 +1,13 @@
 {
-  "name": "cypress-hello",
+  "name": "cypres-scoll-bug",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress": "cypress open",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "serve": "http-server ./server",
-    "test": "run-p -r serve cypress "
+    "test": "run-p -r serve cypress:run "
   },
   "repository": {
     "type": "git",
