@@ -6,7 +6,7 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "serve": "http-server ./server",
+    "serve": "http-server -p 8085 ./server",
     "test": "run-p -r serve cypress:run "
   },
   "repository": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/nishants/hey-cypress#readme",
   "dependencies": {
-    "cypress": "3.4.1",
+    "cypress": "4.3.0",
     "http-server": "^0.12.1",
     "npm-run-all": "^4.1.5"
   }
